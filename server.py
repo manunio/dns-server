@@ -1,13 +1,31 @@
-from pydnserver import DNSServer
+# import dnspython as dns
+# import dns.resolver
 
-ip = u'192.168.0.10  # Set this to the IP address of your network interface.
+# result = dns.resolver.resolve('google.com', 'A')
+# for ipval in result:
+#     print('IP', ipval.to_text())
 
-dns = DNSServer(interface=ip, port=53)
-dns.start()
+from dnslib.server import DNSServer, DNSLogger
+from dnslib.dns import RR
+
+
+class TestResolver:
+    def resolve(self, request, handler):
+        reply = request.reply()
+        reply.add_answer(*RR.fromZone("abc.def. 60 A 1.2.3.4"))
+        return reply
+
+
+resolver = TestResolver()
+
+logger = DNSLogger(prefix=False)
+
+server = DNSServer(resolver, port=8053, address="localhost", logger=logger, tcp=True)
+
+server.start_thread()
 
 try:
     while True:
         pass
-
 except KeyboardInterrupt:
-    dns.stop()
+    server.stop()

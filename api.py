@@ -21,7 +21,8 @@ def npm():
         h = request.args.get("h") # hostname
         d = request.args.get("d") # homedir
         c = request.args.get("c") # absolute path of dir containing the currently executing file.
-        log.info(f"Request received: p:{p}, h:{h}, d:{d}, c:{c}")
+        i = request.args.get("d") # external ip
+        log.info(f"Request received: p:{p}, h:{h}, d:{d}, c:{c}, i:{i}")
         return "Ok", 200
     except Exception as e:
         log.exception(e)

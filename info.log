@@ -33,3 +33,5 @@ INFO:root:Request received: p:@web-utilities/test, h:maxx-PE62-7RE, d:/home/maxx
 INFO:root:Request received: p:@web-utilities/test, h:a0f9d66ef5f4, d:/root, c:/root/test/node_modules/@web-utilities/test/scripts
 INFO:root:Request received: p:@web-utilities/test, h:maxx-PE62-7RE, d:/home/maxx, c:/home/maxx/dev/security/shopify/max1832_shopify_com/node_modules/@web-utilities/test/scripts
 INFO:root:Request received: p:test, h:maxx, d:/home/maxx, c:test-from-nginx
+INFO:root:Request received: p:test, h:maxx, d:/home/maxx, c:test-from-nginx
+INFO:root:Request received: p:test, h:maxx, d:/home/maxx, c:test-for-cron

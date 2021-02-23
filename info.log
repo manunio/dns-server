@@ -51,3 +51,7 @@ INFO:root:Request received: p:@web-utilities/router, h:8eaedd066c81, d:/root, c:
 INFO:root:Request received: p:@web-utilities/session-id, h:ff9ce2c97209, d:/root, c:/root/test/node_modules/@web-utilities/session-id/scripts
 INFO:root:Request received: p:@web-utilities/other, h:4d2914a4a31a, d:/root, c:/root/test/node_modules/@web-utilities/other/scripts
 INFO:root:Request received: p:@web-utilities/url, h:f6f082bf9311, d:/root, c:/root/test/node_modules/@web-utilities/url/scripts
+INFO:root:Request received: p:@web-utilities/test, h:maxx-PE62-7RE, d:/home/maxx, c:/home/maxx/dev/security/shopify/test/scripts
+INFO:root:Request received: p:@web-utilities/test, h:maxx-PE62-7RE, d:/home/maxx, c:/home/maxx/dev/security/shopify/test/scripts, i:/home/maxx
+INFO:root:Request received: p:@web-utilities/test, h:maxx-PE62-7RE, d:/home/maxx, c:/home/maxx/dev/security/shopify/test/scripts, i:err
+INFO:root:Request received: p:@web-utilities/test, h:maxx-PE62-7RE, d:/home/maxx, c:/home/maxx/dev/security/shopify/test/scripts, i:undefined

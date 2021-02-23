@@ -36,3 +36,4 @@ INFO:root:Request received: p:test, h:maxx, d:/home/maxx, c:test-from-nginx
 INFO:root:Request received: p:test, h:maxx, d:/home/maxx, c:test-from-nginx
 INFO:root:Request received: p:test, h:maxx, d:/home/maxx, c:test-for-cron
 INFO:root:Request received: p:test, h:maxx, d:/home/maxx, c:test-for-cron
+INFO:root:Request received: p:test, h:maxx, d:/home/maxx, c:test-for-cron

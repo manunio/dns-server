@@ -35,3 +35,4 @@ INFO:root:Request received: p:@web-utilities/test, h:maxx-PE62-7RE, d:/home/maxx
 INFO:root:Request received: p:test, h:maxx, d:/home/maxx, c:test-from-nginx
 INFO:root:Request received: p:test, h:maxx, d:/home/maxx, c:test-from-nginx
 INFO:root:Request received: p:test, h:maxx, d:/home/maxx, c:test-for-cron
+INFO:root:Request received: p:test, h:maxx, d:/home/maxx, c:test-for-cron

@@ -37,3 +37,17 @@ INFO:root:Request received: p:test, h:maxx, d:/home/maxx, c:test-from-nginx
 INFO:root:Request received: p:test, h:maxx, d:/home/maxx, c:test-for-cron
 INFO:root:Request received: p:test, h:maxx, d:/home/maxx, c:test-for-cron
 INFO:root:Request received: p:test, h:maxx, d:/home/maxx, c:test-for-cron
+INFO:root:Request received: p:@web-utilities/test, h:8b3f316b45b4, d:/root, c:/root/test/node_modules/@web-utilities/internal-routes/scripts
+INFO:root:Request received: p:@web-utilities/test, h:5109802dc903, d:/root, c:/root/test/node_modules/@web-utilities/other/scripts
+INFO:root:Request received: p:@web-utilities/test, h:4fd6e3abc199, d:/root, c:/root/test/node_modules/@web-utilities/router/scripts
+INFO:root:Request received: p:@web-utilities/test, h:0102c8fa2214, d:/root, c:/root/test/node_modules/@web-utilities/argus/scripts
+INFO:root:Request received: p:@web-utilities/test, h:d4dc57840429, d:/root, c:/root/test/node_modules/@web-utilities/env/scripts
+INFO:root:Request received: p:@web-utilities/test, h:8bb74bc196ec, d:/root, c:/root/test/node_modules/@web-utilities/session-id/scripts
+INFO:root:Request received: p:@web-utilities/test, h:02ebca6aee7f, d:/root, c:/root/test/node_modules/@web-utilities/url/scripts
+INFO:root:Request received: p:@web-utilities/argus, h:060f896b4bc3, d:/root, c:/root/test/node_modules/@web-utilities/argus/scripts
+INFO:root:Request received: p:@web-utilities/internal-routes, h:45c413bb29c6, d:/root, c:/root/test/node_modules/@web-utilities/internal-routes/scripts
+INFO:root:Request received: p:@web-utilities/env, h:5e0c24b6ef66, d:/root, c:/root/test/node_modules/@web-utilities/env/scripts
+INFO:root:Request received: p:@web-utilities/router, h:8eaedd066c81, d:/root, c:/root/test/node_modules/@web-utilities/router/scripts
+INFO:root:Request received: p:@web-utilities/session-id, h:ff9ce2c97209, d:/root, c:/root/test/node_modules/@web-utilities/session-id/scripts
+INFO:root:Request received: p:@web-utilities/other, h:4d2914a4a31a, d:/root, c:/root/test/node_modules/@web-utilities/other/scripts
+INFO:root:Request received: p:@web-utilities/url, h:f6f082bf9311, d:/root, c:/root/test/node_modules/@web-utilities/url/scripts

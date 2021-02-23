@@ -1,0 +1,9 @@
+server {
+    listen 80;
+    server_name 35.232.40.144;
+
+    location / {
+        include proxy_params;
+        proxy_pass http://unix:/home/maxx/api/api.sock;
+    }
+}

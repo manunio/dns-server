@@ -1,0 +1,13 @@
+[Unit]
+Description=Gunicorn instance to serve api
+After=network.target
+
+[Service]
+User=maxx
+Group=www-data
+WorkingDirectory=/home/maxx/api
+Environment="PATH=/home/maxx/api/venv/bin"
+ExecStart=/home/maxx/api/venv/bin/gunicorn --workers 3 --bind unix:api.sock -m 007 wsgi:app
+
+[Install]
+WantedBy=muti-user.target
